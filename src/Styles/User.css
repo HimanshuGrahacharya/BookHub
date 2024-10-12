@@ -1,0 +1,81 @@
+.userList{
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+.userList b{
+    font-size: 60px;
+    font-weight: 900;
+    color: rgb(245, 18, 18);
+    display: flex;
+    justify-content: center;
+    text-shadow: 10px 10px 30px rgb(7, 249, 7);
+}
+.users{
+    margin: auto;
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: 10px 10px 30px rgb(255, 0, 21),-10px -10px 30px rgb(255, 0, 21) ;
+    padding-top: 3vh;
+}
+.user{
+    height: 20vh;
+    width: 70%;
+    background-color: rgb(21, 255, 0);
+    display: flex;
+    justify-content: space-around;
+    border-top-left-radius: 40px ;
+    border-bottom-right-radius: 40px ;
+    box-shadow: 10px 10px 30px rgb(35, 33, 33) ;
+    margin-top: 8vh;
+}
+.udetails{
+    background-color: antiquewhite;
+    height: 100%;
+    width: 70%;
+}
+.udetails span{
+  color: red;
+}
+.udetails h1{
+    position: relative;
+    top: 7%;
+    left: 10%;
+    margin: 5px 0px;
+}
+.udetails h2{
+    position: relative;
+    top: 3%;
+    left: 10%;
+    margin: 2px 0px;
+}
+.udetails p{
+    position: relative;
+    top: 4%;
+    left: 10%;
+}
+.ubtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ubtn button{
+    color: rgb(16, 18, 18); 
+    height: 5vh;
+    width: 100px;
+    margin: 10px;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+     font-weight: 600;
+     border: 0.5 solid green;
+     background-color: rgb(249, 35, 7);
+ }
+ .ubtn button:hover{
+     background-color: rgb(5, 111, 241);
+ }

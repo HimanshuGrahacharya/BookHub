@@ -1,0 +1,72 @@
+.userLogin{
+    text-align: center;
+   
+    background-image: url(https://th.bing.com/th/id/OIP.nwukyGoCFt9-9gjkpBweLAHaFj?rs=1&pid=ImgDetMain);
+    background-repeat: no-repeat;
+    object-fit: fill;
+    height: 777px;
+    background-size: 100% 100%;
+  
+
+}
+.userLogin h1{
+    border: 3px dotted aqua;
+    font-size: 40px;
+    height: 9vh;
+    width: 100%;
+    background: linear-gradient( rgb(239, 105, 21),rgb(34, 233, 34));
+    color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 0 0 60px rgba(0, 255, 0, 0.457);
+    animation: anime 1s infinite alternate;
+}
+@keyframes anime {
+ 100%{
+ text-shadow: 0 0 60px rgba(0, 255, 21, 0.457);
+ }
+}
+.userForm{
+    margin: auto;
+    height: 40vh;
+    width: 50%;
+    background: linear-gradient(rgb(255, 246, 247), rgb(227, 137, 224),white,rgb(240, 240, 236) ,whitesmoke,rgb(115, 181, 195));
+    
+    border-radius: 50px;
+    box-shadow:  10px 10px 60px #ef06f3e9,inset -10px -10px 60px #03f63cea;
+    padding-top: 5vh;
+    margin-top: 10vh;
+}
+.userForm input{
+    height: 7vh;
+    width: 40%;
+    margin-top: 3vh;
+    border-radius: 10px;
+}
+.userForm button{
+    height: 6vh;
+    width: 14%;
+    margin-top: 3vh;
+    border-radius: 10px; 
+    font-size: large;
+    font-weight: bolder;
+    border: 1px solid aqua;
+    color: rgb(64, 217, 64);
+}
+.userForm button:active{
+    scale: 0.9;
+    background-color: red;
+}
+.userForm button:hover{
+    background-color: yellow;
+}
+.userForm input::placeholder{
+    font-size: large;
+    font-weight: bolder;
+    color: rgb(64, 217, 64);
+    text-align: center;
+}
+.userLogin input:focus{
+    outline: none;
+    border-color: rgb(0, 238, 255);
+    
+}

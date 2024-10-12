@@ -1,0 +1,238 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.page1 {
+  height: 88vh;
+  /* width: 100%; */
+  background-image: url(https://www.greenwichlibrary.org/wp-content/uploads/2021/06/IMG_5534-scaled.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 180px;
+}
+
+.trans {
+  height: 38vh;
+  width: 70%;
+  background-color: rgba(241, 245, 245, 0.695);
+}
+
+.trans b {
+  font-size: 75px;
+  position: relative;
+  top: 10%;
+
+  /* left: 1px; */
+}
+
+.trans hr {
+  width: 45%;
+  height: 0.5vh;
+  background-color: rgb(255, 145, 0);
+  position: relative;
+  top: 14%;
+  left: 26%;
+}
+
+.trans p {
+  font-size: 22px;
+  position: relative;
+  top: 18%;
+  left: 1%;
+}
+
+.trans p:nth-child(2n) {
+  position: relative;
+  top: 22%;
+}
+
+.trans .btn {
+  font-size: 18px;
+  font-weight: 1000;
+  color: aliceblue;
+  height: 6vh;
+  width: 15%;
+  background-color: rgba(255, 145, 0, 0.614);
+  display: flex;
+  position: relative;
+  top: 31%;
+  left: 85%;
+  cursor: pointer;
+}
+
+.trans .btn div:nth-child(1n) {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trans .btn div:nth-child(1n):hover {
+  background-color: rgba(255, 145, 0, 0.967);
+}
+
+.trans .btn div:nth-child(2n) {
+  height: 100%;
+  width: 30%;
+}
+
+.page2 {
+  height: 120vh;
+  width: 100%;
+  padding-top: 15vh;
+}
+
+.page2bg {
+  height: 60vh;
+  width: 80%;
+  margin: auto;
+  background-image: url(../../public/photo/bg2.jpg);
+  background-size: 100% 130%;
+  background-repeat: no-repeat;
+  z-index: -1;
+  padding-top: 40vh;
+}
+
+.page2text {
+  height: 47vh;
+  width: 70%;
+  background-color: whitesmoke;
+  margin: auto;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.544),
+    -10px 0px 7px rgba(0, 0, 0, 0.4);
+}
+
+.page2text p {
+  position: relative;
+  top: 5%;
+  left: 1%;
+}
+
+.page2text b {
+  font-size: 40px;
+  position: relative;
+  top: 8%;
+  left: 1px;
+}
+
+.page2text hr {
+  height: 0.7vh;
+  width: 59%;
+  background-color: rgb(0, 174, 255);
+  position: relative;
+  top: 9%;
+  left: 20%;
+}
+
+.page2text p:nth-child(1n),
+.page2text p:nth-child(2n),
+.page2text p:nth-child(3n),
+.page2text p:nth-child(4n) {
+  font-size: 21px;
+  position: relative;
+  left: 1px;
+  top: 12%;
+  margin-top: 1vh;
+}
+
+.page2text .btn {
+  background-color: rgba(53, 236, 236, 0.692);
+  height: 5vh;
+  width: 18%;
+  display: flex;
+  position: relative;
+  left: 82%;
+  top: 22%;
+  cursor: pointer;
+}
+.page2text .btn div:nth-child(1n) {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page2text .btn div:nth-child(1n):hover {
+  background-color: rgb(0, 255, 255);
+}
+.page2text .btn div:nth-child(2n) {
+  height: 100%;
+  width: 30%;
+  background-color: rgb(0, 255, 255);
+}
+.page3 {
+  height: 65vh;
+  width: 100%;
+  background: linear-gradient(
+    pink,
+    rgb(224, 86, 219),
+    rgb(196, 220, 12),
+    whitesmoke
+  );
+  text-align: center;
+  color: antiquewhite;
+}
+.page3 b {
+  font-size: 70px;
+  position: relative;
+  top: 30%;
+}
+.page3 p {
+  font-size: 25px;
+  position: relative;
+  top: 34%;
+}
+.page3 .btn {
+  width: 15%;
+  height: 6vh;
+  display: flex;
+  margin: auto;
+  position: relative;
+  top: 40%;
+  color: rgba(0, 0, 0, 0.747);
+}
+.page3 .btn div:nth-child(1n) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 75%;
+  background-color: rgba(236, 239, 242, 0.953);
+}
+.page3 .btn div:nth-child(1n):hover {
+  background-color: rgba(102, 117, 130, 0.744);
+}
+.page3 .btn div:nth-child(2n) {
+  height: 100%;
+  width: 25%;
+  background-color: rgba(102, 117, 130, 0.744);
+}
+/* .page4{
+}
+    /* alredy done in page2 */
+
+.page4 hr {
+  height: 0.7vh;
+  width: 59%;
+  background-color: rgb(242, 0, 255);
+  position: relative;
+  top: 9%;
+  left: 20%;
+}
+.page4 .btn {
+  background-color: rgba(230, 72, 214, 0.692);
+}
+.page4 .btn div:nth-child(1n):hover {
+  background-color: rgb(226, 58, 193);
+}
+.page4 .btn div:nth-child(2n) {
+  background-color: rgb(252, 4, 211);
+}
+.page5 {
+  height: 150vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,127 @@
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  width: 300px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.search-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+}
+
+.clear-btn {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.clear-btn:hover {
+  background-color: #ff3333;
+}
+
+
+
+
+
+.bookcollection{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-align: center;
+    margin: auto;
+}
+.bookcollection h1{
+    height: 5vh;
+    width: 100%;
+    border: 1px solid aqua;
+    border-radius: 10px;
+}
+.books{
+    height: auto;
+    width: 98%; 
+    margin: auto;
+}
+.book{
+    height: 70vh;
+    width: 100%;
+    border: 3px dotted rgb(98, 255, 98);
+    border-top-left-radius: 17%;
+    border-bottom-right-radius: 17%;
+    background-color: rgba(239, 246, 239, 0.975);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.book img{
+    height: 45vh;
+    width: 70%;
+    position: relative;
+    top: 30%;
+    left: 10%;
+    box-shadow: 10px 10px 20px rgba(171, 113, 46, 0.712),inset -10px -10px 20px rgba(171, 113, 46, 0.712);
+}
+.details{
+    height: 60%;
+    width: 40%;
+    background-color: rgba(207, 19, 210, 0.441);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: antiquewhite;
+    box-shadow: 10px 10px 20px rgba(171, 113, 46, 0.712);
+}
+.details span{
+    color: rgb(54, 54, 226);
+}
+.details p{
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+.details p:nth-child(1n){
+    position: relative;
+    top: 22%;
+    left: 2%;
+    margin: 5px;
+}
+.btn{
+    position: relative;
+    top: 30%;
+    left: 3%;
+}
+.btn button{
+   color: rgb(16, 18, 18); 
+   height: 5vh;
+   width: 30%;
+   margin: 10px;
+   cursor: pointer;
+   border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-weight: 600;
+    border: 0.5 solid green;
+}
+.btn button:hover{
+    background-color: rgb(37, 182, 148);
+}
+.btn button:nth-child(1n){
+    background-color: rgb(64, 153, 216);
+}
+.btn button:nth-child(2n){
+    background-color: rgba(221, 90, 81, 0.858);
+}

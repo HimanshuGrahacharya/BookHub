@@ -1,0 +1,73 @@
+.adminLogin {
+  border: solid 0px rgb(24, 30, 144);
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 1px 6px 4px 4px blue;
+  height: 565px;
+  object-fit: fill;
+  background-image: url(../../public/photo/adminLogin.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.adminLogin h1 {
+  border: 5px rgb(222, 206, 208);
+  background-color: antiquewhite;
+  font-size: 40px;
+  height: 11vh;
+  width: 100%;
+
+  background: linear-gradient(rgb(184, 85, 28), rgb(185, 82, 213));
+  color: transparent;
+  -webkit-background-clip: text;
+  text-shadow: 0 0 60px rgba(18, 187, 150, 0.457);
+  animation: anime 1s infinite alternate;
+}
+@keyframes anime {
+  100% {
+    text-shadow: 0 0 60px rgba(129, 90, 234, 0.457);
+  }
+}
+.adminForm {
+  margin: auto;
+  height: 40vh;
+  width: 50%;
+  background-color: rgb(64, 202, 217);
+  border-radius: 50px;
+  box-shadow: 10px 10px 60px #06ccf3e9, inset -10px -10px 60px #d127bbea;
+  padding-top: 5vh;
+  margin-top: 18vh;
+}
+.adminForm input {
+  height: 7vh;
+  width: 50%;
+  margin-top: 3vh;
+  border-radius: 10px;
+}
+.adminForm button {
+  height: 6vh;
+  width: 14%;
+  margin-top: 3vh;
+  border-radius: 10px;
+  font-size: large;
+  font-weight: bolder;
+  border: 1px solid aqua;
+  color: rgb(64, 202, 217);
+}
+.adminForm button:active {
+  scale: 0.9;
+  background-color: rgb(211, 102, 102);
+}
+.adminForm button:hover {
+  background-color: rgb(255, 0, 255);
+}
+.adminForm input::placeholder {
+  font-size: large;
+  font-weight: bolder;
+  color: rgb(208, 42, 111);
+  text-align: center;
+}
+.adminLogin input:focus {
+  outline: none;
+  border-color: rgb(0, 238, 255);
+}

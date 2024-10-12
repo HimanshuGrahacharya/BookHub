@@ -1,0 +1,58 @@
+.navbar {
+  height: 12vh;
+  width: 100%;
+  /* background-color: rgba(253, 2, 236, 0.316); */
+  background: linear-gradient(blue, pink);
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  margin: auto;
+
+  /* color: transparent; */
+  /* -webkit-background-clip: text; */
+  
+  text-shadow: 0 60px rgba(0, 238, 255, 0.457);
+  animation: anime 2s infinite alternate;
+}
+@keyframes anime {
+  100% {
+    text-shadow: 0 60px rgba(202, 38, 202, 0.457);
+  }
+}
+.links {
+  height: auto;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-left: 29%;
+}
+.links button {
+  height: 7vh;
+  width: 80px;
+  font-size: small;
+  font-weight: bold;
+  border-radius: 10px;
+  /* color:  rgb(137, 149, 168); */
+  border: solid 1px aqua;
+  box-shadow: 3px 1px 7px aqua;
+  margin: 0px 5px;
+  background: linear-gradient(rgb(250, 5, 242), rgb(196, 220, 12));
+  color: transparent;
+  -webkit-background-clip: text;
+  text-shadow: 0 0 60px rgba(0, 255, 0, 0.457);
+  animation: anime 1s infinite alternate;
+}
+@keyframes anime {
+  100% {
+    text-shadow: 0 0 60px rgba(0, 255, 21, 0.457);
+  }
+}
+.links button:active {
+  scale: 0.9;
+  background-color: rgb(252, 4, 4);
+}
+.links button:hover {
+  color: rgb(247, 15, 3);
+}

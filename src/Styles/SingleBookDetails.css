@@ -1,0 +1,127 @@
+.bookdetails {
+    height: 88vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.data {
+    height: 80vh;
+    width: 70%;
+    border: dotted green 1px;
+    background-color: rgb(50, 193, 129);
+    display: flex;
+    border-top-left-radius:17px ;
+    border-bottom-right-radius: 17px;
+}
+
+.bimg {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bimg img {
+    height: 90%;
+    width: 80%;
+    box-shadow: 10px 10px 30px rgb(212, 42, 184), -10px -10px 30px rgb(183, 152, 28);
+}
+
+.bdata {
+    height: 100%;
+    width: 60%;
+    margin: auto;
+    font-size: 10px;
+}
+
+.bdtext {
+    height: 90%;
+    width: 100%;
+    padding-top: 3.5vh;
+    margin: -3px;
+}
+
+.bdtext span,
+.bdtext h1 {
+    color: rgb(4, 41, 252);
+}
+
+.flow {
+    margin-top: 3vh;
+    overflow: auto;
+    height: 60vh;
+    width: 100%;
+    padding: 5px 15px;
+}
+
+.flow p {
+    font-size: 20px;
+}
+
+.flowsort {
+    height: 17vh;
+    width: 100%;
+    overflow: auto;
+    margin: 1vh 0px;
+    background-color: rgba(212, 61, 123, 0.626);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.flowlong {
+    height: 27vh;
+    width: 100%;
+    overflow: auto;
+    margin: 1vh 0px;
+    background-color: rgba(172, 65, 201, 0.626);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.flowsort::-webkit-scrollbar,.flowlong::-webkit-scrollbar {
+    width: 20px;
+}
+
+.flowsort::-webkit-scrollbar-track ,.flowlong::-webkit-scrollbar-track {
+    background: rgb(255, 128, 0);
+    /* color of the tracking area */
+}
+
+.flowsort::-webkit-scrollbar-thumb ,.flowlong::-webkit-scrollbar-thumb{
+    background: radial-gradient(rgb(79, 183, 221),green,aqua);
+    /* color of the scroll thumb */
+    border-radius: 50px;
+    /* roundness of the scroll thumb */
+    border: 3px solid orange;
+    /* creates padding around scroll thumb */
+}
+.bdbtn {
+    height: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bdbtn button {
+    color: rgb(16, 18, 18);
+    height: 5vh;
+    width: 170px;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-weight: 600;
+    border: 0.5 solid green;
+    margin: 0px 17px;
+}
+
+.bdbtn button:hover {
+    background-color: rgb(5, 111, 241);
+}
+
+.bdbtn button:nth-child(1n) {
+    background-color: rgb(225, 93, 16);
+}

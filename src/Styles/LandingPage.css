@@ -1,0 +1,70 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.landingPage {
+  text-align: center;
+
+  height: 100vh;
+
+  background-image: url(../../public/photo/bookhub.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* background: linear-gradient( white,blue,white,rgb(222, 53, 53),yellow); */
+  color: transparent;
+}
+.landingPage h1 {
+  border: 0px solid rgb(35, 55, 206);
+
+  border-radius: 3px;
+  box-shadow: 3px 2px 3px rgb(212, 130, 202);
+  font-size: 20px;
+  height: 8vh;
+  width: 100%;
+  background: whitesmoke;
+
+  color: transparent;
+
+  /* -webkit-background-clip: text;
+    text-shadow: 0 0 60px rgba(32, 186, 166, 0.457); */
+  animation: anime 1s infinite alternate;
+}
+@keyframes anime {
+  100% {
+    text-shadow: 0 0 60px rgba(0, 255, 238, 0.457);
+  }
+}
+.loginOption {
+  margin: auto;
+  margin-top: 5vh;
+  height: 45vh;
+  width: 40%;
+  background: linear-gradient(
+    pink,
+    rgb(224, 86, 219),
+    rgb(219, 99, 137),
+    whitesmoke
+  );
+  backdrop-filter: blur(10px);
+  border-radius: 50px;
+}
+.loginOption button {
+  height: 10vh;
+  width: 170px;
+  font-size: x-large;
+  font-weight: bold;
+  border-radius: 20px;
+  color: rgb(215, 32, 163);
+  border: solid 1px rgb(7, 218, 190);
+  margin-top: 7vh;
+  box-shadow: 10px 10px 60px #bd8928e9, inset -10px -10px 60px #4bb865ea;
+  transition: all ease 0.2s;
+}
+.loginOption button:active {
+  scale: 0.9;
+  background-color: red;
+}
+.loginOption button:hover {
+  background-color: rgb(30, 206, 83);
+}
